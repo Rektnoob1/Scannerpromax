@@ -145,7 +145,7 @@ def main():
 			print("4.Directory Scan")
 			print("5.Subdomain enumerator")
 			print("99.Exit")
-			ch = input("\nEnter you the number of your choice: ")
+			ch = str(input("\nEnter you the number of your choice: "))
 			
 			if ch == '1':
 				ping_ip(get_host(target))
